@@ -4,7 +4,7 @@ from prettytable import PrettyTable
 
 token = input("Введите API-ключ : ")
 secret = input("Введите Секретный ключ : ")
-language = input('Введите язык ответ ru или en : ')
+language = input('Введите язык вывода ru или en : ')
 
 if language != "ru" and language != "en":
     language = "ru"
